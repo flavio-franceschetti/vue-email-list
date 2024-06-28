@@ -17,7 +17,7 @@
   <body>
     <div id="app">
       <ul v-if="email.length === 10">
-        <li v-for="(mail, index) in email">{{email[index]}}</li>
+        <li v-for="(mail, index) in email">{{mail}}</li>
       </ul>
       <div v-else>Loading emails...</div>
     </div>
